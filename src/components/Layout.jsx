@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import HeroBanner from "./HeroBannar";
+import HeroBanner from "./HeroBanner";
 
 const Layout = () => {
   return (
