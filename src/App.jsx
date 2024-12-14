@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Layout from "./components/Layout";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <main>
+      <Layout />
+      {/* <header>
+        <nav className="flex justify-between items-center bg-slate-100 border-2 text-black p-8">
+          <div>Agency Name</div>
+          <div>
+            <ul className="flex justify-center items-center gap-5">
+              <li>
+                <Link href={"/"}>Home</Link>
+              </li>
+              <li>
+                <Link href={"/"}>About Me</Link>
+              </li>
+              <li>
+                <Link href={"/"}>Services</Link>
+                <ul>
+                  <li>
+                    <Link href={"/"}>Search Engine Optimization</Link>
+                  </li>
+                  <li>
+                    <Link href={"/"}>Local SEO</Link>
+                  </li>
+                  <li>
+                    <Link href={"/"}>Pay Per Click Management</Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <Link href={"/"}>Case Studies</Link>
+              </li>
+              <li>
+                <Link href={"/"}>Contact </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <MenuIcon />
+          </div>
+        </nav>
+      </header> */}
+    </main>
+  );
 }
 
-export default App
+export default App;
