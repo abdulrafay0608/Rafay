@@ -35,7 +35,7 @@ const HeroBanner = () => {
         <div>
           <img
             src="https://quickresto.ru/static/partnersProgramm-30297fc79a1cdb583498bff2e9e65f0f.png"
-            className="h-[50vh] md:h-[90vh] object-cover brightness-50"
+            className="h-[80vh] md:h-[90vh] object-cover brightness-50"
           />
           <div className="text-left absolute top-1/2 -translate-y-[50%] left-[10px] md:left-[80px] md:px-2">
             <h2 className="text-white text-[30px] sm:text-[40px] md:text-[60px] font-extrabold leading-tight">
@@ -60,7 +60,7 @@ const HeroBanner = () => {
         <div>
           <img
             src="https://www.kps.com/assets/images/627-353/627x353-business-process-leadership-next-generation-cfo-empathy.jpg/_jcr_content/renditions/cq5dam.web.1920.2890.jpeg"
-            className="h-[50vh] md:h-[90vh] object-cover brightness-50"
+            className="h-[80vh] md:h-[90vh] object-cover brightness-50"
           />
           <div className="text-left absolute top-1/2 -translate-y-[50%] left-[10px] md:left-[80px] md:px-2">
             <h2 className="text-white text-[30px] sm:text-[40px] md:text-[60px] font-extrabold leading-tight">
@@ -84,7 +84,7 @@ const HeroBanner = () => {
         <div>
           <img
             src="https://brendaholley.com/wp-content/uploads/2022/11/AdobeStock_379435239-72dpi.jpg"
-            className="h-[50vh] md:h-[90vh] object-cover brightness-50"
+            className="h-[80vh] md:h-[90vh] object-cover brightness-50"
           />
           <div className="text-left absolute top-1/2 -translate-y-[50%] left-[10px] md:left-[80px] px-2">
             <h2 className="text-white text-[30px] sm:text-[40px] md:text-[60px] font-extrabold leading-tight">
